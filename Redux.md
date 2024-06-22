@@ -24,7 +24,10 @@ To keep it from getting big or clumsy, we've `Slicing` in our redux store.
 
 `slice is a small portion of redux store.We create multiple slices inside our redux store.`
 
+`Slice is respnsible for tracking initial state of the store as well as all of our reducers are collected here`
+
 #### Why do we need `Slice` ?
+
 - to keep data seperate, make a logical partitions.
 - Example : 
     - If we want to add cart data into our redux store we'll create a seperate slice for cart data.
