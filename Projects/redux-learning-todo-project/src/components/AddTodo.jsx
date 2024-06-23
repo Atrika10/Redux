@@ -10,6 +10,7 @@ export default function AddTodo() {
         e.preventDefault()
 
         dispatch(addTodo(input));
+        setInput('');
     }
   return (
     <>
