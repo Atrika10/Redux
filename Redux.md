@@ -123,7 +123,7 @@ there are 2 compulsory things that you've to pass on the every reducers which ar
     ```
  
 
-## How to read/access data from the store ?
+## <b style = "color : orange "> How to read/access data from the store ? </b>
  - to read from store, we need `useSelector` hook ;
   `useSelector hook is a method which gives us access to the state(which is a object) & grab what we need from store`
 
